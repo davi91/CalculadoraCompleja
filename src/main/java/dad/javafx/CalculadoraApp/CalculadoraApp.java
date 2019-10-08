@@ -72,9 +72,10 @@ public class CalculadoraApp extends Application {
 		c2_box.setAlignment(Pos.CENTER);
 		c2_box.setFillHeight(false);
 		
-		Separator sep = new Separator();
 		r_box.setAlignment(Pos.CENTER);
 		r_box.setFillHeight(false);
+		
+		Separator sep = new Separator();
 		
 		VBox nBox = new VBox(5, c1_box, c2_box, sep, r_box);
 		nBox.setAlignment(Pos.CENTER);
